@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'New York';
+    src: url(/fonts/NewYork.otf);
+  }
+
+
+body{
+    background:url(/img/fondo2.jpg);
+    background-size: cover;
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-header{
+    background-color: #302247;
+    color: #fff;
+}
+
